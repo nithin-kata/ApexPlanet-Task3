@@ -1,0 +1,129 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Responsive Section */
+#responsive-section {
+    text-align: center;
+    background-color: #e0f7fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+/* Quiz Section */
+#quiz-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#quiz-container button.option-btn {
+    margin: 10px 0;
+    padding: 10px 20px;
+    width: 100%;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#quiz-container button.option-btn:hover {
+    background-color: #45a049;
+}
+
+#quiz-container button.option-btn.selected {
+    background-color: #FF9800;
+}
+
+/* Next Button */
+#quiz-container button#next-btn {
+    background-color: #2196F3;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+    transition: background-color 0.3s;
+}
+
+#quiz-container button#next-btn:hover {
+    background-color: #1976D2;
+}
+
+/* API Section */
+#api-section {
+    text-align: center;
+    background-color: #fff3e0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#api-section button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #2196F3;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#api-section button:hover {
+    background-color: #1976D2;
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+    header {
+        padding: 15px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    body {
+        font-size: 18px;
+    }
+    header {
+        padding: 25px;
+    }
+}
+
+@media (min-width: 901px) {
+    body {
+        font-size: 20px;
+    }
+    header {
+        padding: 35px;
+    }
+}
