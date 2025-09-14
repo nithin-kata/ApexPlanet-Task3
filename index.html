@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Advanced Web Projects</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- Responsive Section -->
+    <header>
+        <h1>My Responsive Webpage</h1>
+    </header>
+    <main>
+        <section id="responsive-section">
+            <p>This section adjusts layout and font sizes based on screen size.</p>
+        </section>
+
+        <!-- Quiz Section -->
+        <section id="quiz-section">
+            <h2>Interactive Quiz</h2>
+            <div id="quiz-container">
+                <h3 id="question">Question will appear here</h3>
+                <div id="options"></div>
+                <button id="next-btn">Next</button>
+                <p id="score"></p>
+            </div>
+        </section>
+
+        <!-- API Section -->
+        <section id="api-section">
+            <h2>Random Joke Generator</h2>
+            <p id="joke">Click the button below to get a joke!</p>
+            <button onclick="fetchJoke()">Get Joke</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
